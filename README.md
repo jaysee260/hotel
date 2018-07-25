@@ -10,3 +10,14 @@ Juan spoke positively of the times he was able to work remotely. Even now, as he
 Being interested in entering the field of software development, I'm constantly looking for ideas for projects which I might build to showcase my skills. It occurred to me, then, that building a website for a hypothetical hotel might be both fun and worth the undertaking.
 
 So, this is the record of my attempt to do just that.
+
+<hr>
+
+#### Resources that might come in handy
+
+- [React Date Picker][date-picker]
+- [Bulma Extensions][extensions]
+
+
+[date-picker]: https://www.npmjs.com/package/react-datepicker
+[extensions]: https://www.npmjs.com/package/bulma-extensions
