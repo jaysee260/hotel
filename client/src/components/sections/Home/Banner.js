@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Banner = () => 
+export const Banner = () => 
   <section className="hero is-info is-medium">
     <div className="hero-body">
       <div className="container has-text-centered">
@@ -14,5 +14,3 @@ const Banner = () =>
       </div>
     </div>
   </section>
-
-export default Banner;

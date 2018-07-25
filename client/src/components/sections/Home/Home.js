@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 
-import Banner from './Banner';
+import { Banner } from './index';
+import { About } from '../AboutUs';
 
-class Home extends Component {
+export class Home extends Component {
   render() {
     return (
       <section className="home-page">
       
       <Banner />
 
-
+      <About />
       </section>
     )
   }
 };
-
-export default Home;
