@@ -1,6 +1,10 @@
 const config = {
   mode: "development",
   devtool: "eval-source-map",
+  devServer: {
+    // redirects all 404s to ./dist/index.html
+    historyApiFallback: true
+  },
   module: {
     rules: [
       {
