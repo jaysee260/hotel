@@ -35,9 +35,9 @@ class Nav extends Component {
     return (
       <nav className="navbar" role="navigation" aria-label="main-navigation">
         <div className="navbar-brand">
-          <a href="#" className="navbar-item">
+          <Link to="/" className="navbar-item">
             HOTEL LOGO
-          </a>
+          </Link>
 
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
@@ -64,11 +64,11 @@ class Nav extends Component {
               About Us
             </Link>
 
-            <a className="navbar-item">
-              <button href="#" className="button is-link is-small">
+            <div className="navbar-item is-paddingless" style={{margin: '0 20px'}}>
+              <Link to="/booknow" className="button is-link is-small">
                 Book Now
-              </button>
-            </a>
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
