@@ -8,6 +8,15 @@ import { Photos } from '../components/sections/Photos';
 
 import NotFound from '../components/NotFound';
 
+/**
+ * @description
+ * Catalog of accessible routes
+ * within the React application.
+ * 
+ * "Default" or "Index" route is
+ * set with "exact path".
+ */
+
 const routes = () =>
   <Switch>
     <Route exact path="/" component={Home} />
